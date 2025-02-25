@@ -14,6 +14,7 @@ function initApp() {
     if (entries.length > 0) renderTable();
 }
 
+
 function setupEventListeners() {
     document.getElementById('loginForm').addEventListener('submit', handleLogin);
     document.getElementById('logoutBtn').addEventListener('click', handleLogout);
